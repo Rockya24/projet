@@ -9,61 +9,100 @@
   <!-- lien google font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <!-- lien boxicon -->
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <!--lien font awsome-->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <!-- lien font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>  
+
+<body>
   <header>
     <div class="cerebro">
       <a href="#" class="logo"><img src="img/logo.png" alt="Logo CEREBRO" class="logo" /></a>
     </div>
-     <ul class="navlist">
-      <i class="fa-solid fa-xmark" id="close" onclick="closemenu()"></i>
-        <li class="LO"><a href="#">Accueil</a></li>
-        <li  class="LO "><a href="#" >À propos</a></li>
-        <li class="LO"><a href="#">Thèmes</a></li>
-        <li class="LO"><a href="#">Contact</a></li>
-        
-     </ul>
-      <i class="fa-solid fa-bars" id="open" onclick="openmenu()"></i>
-
+    <ul class="navlist">
+      <li class="LO"><a href="#">Accueil</a></li>
+      <li class="LO"><a href="#apropos">À propos</a></li>
+      <li class="LO"><a href="#themes">Thèmes</a></li>
+      <li class="LO"><a href="#contact-section">Contact</a></li>
+    </ul>
   </header>
 
- <!-- section hero acceuil-->
-<section class="hero-section">
-  <div class="section-content">
-    <div class="hero-text">
-      <h2 class="hero-title">
-        Bienvenu dans <span>CEREBRO</span>
-      </h2>
-      <h3 class="hero-subtitle">
-        où apprendre devient encore plus fun.
-      </h3>
-      
-      <div class="cta-buttons">
-        <button class="cta-button">
-          Commencer l'exploration
-        </button>
+  <!-- section hero acceuil -->
+  <section class="hero-section">
+    <div class="section-content">
+      <div class="hero-text">
+        <h2 class="hero-title">Bienvenu dans <span>CEREBRO</span></h2>
+        <h3 class="hero-subtitle">où apprendre devient encore plus fun.</h3>
+        <div class="cta-buttons">
+          <button class="cta-button">Commencer l'exploration</button>
+        </div>
+      </div>
+    </div>
+    <img src="img/inte.png" alt="enfant entrain de reflechir" class="hero-image" />
+  </section>
+
+  <!-- section à propos -->
+  <div id="apropos">
+    </div>
+    <div class="apropos-title">
+      <h1>À propos de CEREBRO</h1>
+    </div>
+    <div class="apropos-text">
+      <p>
+        CEREBRO est un jeu interactif innovant conçu pour permettre aux enfants d’apprendre tout en s’amusant. Notre mission est de transformer l’apprentissage en une aventure captivante, où chaque défi stimule la curiosité, la réflexion et la créativité.
+        Grâce à des activités ludiques, des quiz, des mini-jeux et des parcours adaptés à chaque âge, CEREBRO aide les enfants à développer leurs compétences cognitives, leur mémoire, leur logique et leur culture générale — le tout dans un environnement sécurisé et amusant.
+        Parce que nous croyons que le jeu est l’un des meilleurs moyens d’apprendre, CEREBRO accompagne les enfants dans leur développement, en rendant chaque moment d’apprentissage unique et motivant.
+      </p>
+    </div>
+  </div>
+
+  <!-- section thèmes -->
+  <div id="themes">
+    <div class="themes-title">
+      <h1>Nos Thèmes</h1>
+    </div>
+    <div class="themes-container">
+      <div class="theme-carte1">
+        <img src="img/theme1.jpg" alt="Thème 1" class="theme-image">
+        <h3>Culture générale</h3>
+        <p>
+          Explorez les merveilles de la culture générale ! Voyagez des secrets de la nature aux prouesses de la technologie, des grandes pages de l’histoire aux chefs-d’œuvre de l’art, des questions de société aux découvertes scientifiques.
+          Chaque savoir élargit vos horizons, aiguise votre esprit critique et nourrit votre créativité. Ouvrez un livre, regardez un documentaire, discutez d’idées nouvelles : la culture générale est une aventure passionnante, accessible et sans fin. À vous de la vivre pleinement !
+        </p>
+      </div>
+      <div class="theme-carte2">
+        <img src="img/theme2.jpg" alt="Thème 2" class="theme-image">
+        <h3>Mathématiques</h3>
+        <p>
+          Les mathématiques sont bien plus qu'une simple discipline scolaire : elles sont un langage universel qui nous aide à comprendre le monde.
+          Des nombres aux formes géométriques, des équations aux statistiques, les mathématiques nous permettent de résoudre des problèmes, d'analyser des données et de prendre des décisions éclairées. Elles développent notre logique, notre rigueur et notre créativité.
+        </p>
+      </div>
+      <div class="theme-carte3">
+        <img src="img/theme3.jpg" alt="Thème 3" class="theme-image">
+        <h3>Français</h3>
+        <p>
+          Explorez les merveilles de la langue française ! Le français, c’est bien plus qu’une langue : c’est une porte ouverte sur un monde de littérature, d’histoire, de pensée et de beauté. Chaque mot a une histoire, chaque texte est une aventure.
+          Maîtriser le français, c’est savoir s’exprimer avec clarté, convaincre avec élégance, rêver avec poésie. Que vous soyez passionné de lecture, curieux de grammaire ou amateur d’éloquence, laissez-vous emporter par la culture francophone.
+          Le français, c’est une force, une fierté… et un plaisir à cultiver chaque jour.
+        </p>
       </div>
     </div>
   </div>
 
-  <img src="img/inte.png" alt="enfant entrain de reflechir" class="hero-image" />
-</section>
-<!--a propos-->
-<div id="apropos">
-  <div class="apropos-img">
-    <img src= "img/c5.jpg">
+  <!-- section contact -->
+  <div class="contact-section" id="contact-section">
+    <h2>Contactez-nous</h2>
+    <p>Pour toute question ou suggestion, n'hésitez pas à nous contacter via notre formulaire en ligne ou par email.</p>
+    <form action="#" method="post">
+      <input type="text" name="name" placeholder="Votre nom" required>
+      <input type="email" name="email" placeholder="Votre email" required>
+      <textarea name="message" placeholder="Votre message" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+    <div class="copyright">
+      <p>©2025 Tous droits réservés | CEREBRO</p>
+    </div>
   </div>
-  <div class="apropos-title">
-    <h1>A propos de Cerebro</h1>
-  </div>
-  <div class="apropos-text">
-    <p>
-      CEREBRO est un jeu interactif innovant conçu pour permettre aux enfants d’apprendre tout en s’amusant. Notre mission est de transformer l’apprentissage en une aventure captivante, où chaque défi stimule la curiosité, la réflexion et la créativité.
-      Grâce à des activités ludiques, des quiz, des mini-jeux et des parcours adaptés à chaque âge, CEREBRO aide les enfants à développer leurs compétences cognitives, leur mémoire, leur logique et leur culture générale — le tout dans un environnement sécurisé et amusant.
-      Parce que nous croyons que le jeu est l’un des meilleurs moyens d’apprendre, CEREBRO accompagne les enfants dans leur développement, en rendant chaque moment d’apprentissage unique et motivant.
-    </p>
-  </div>
-</div>
+</body>
+</html>
