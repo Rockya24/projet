@@ -1,13 +1,16 @@
 /* ========================== */
 /*      RESET & BASE         */
 /* ========================== */
+html{
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  font-family: "Poppins", sans-serif;
+  font-family: cursive;
 }
 
 body {
@@ -358,5 +361,4 @@ header {
   #themes,
   .contact-section {
     padding: 60px 2rem;
-  }
 }
