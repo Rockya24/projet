@@ -1,0 +1,23 @@
+   {
+  "Culture Générale": [
+    "Quelle est la capitale du Canada ?",
+    "Qui a peint la Joconde ?",
+    "En quelle année l'homme a-t-il marché sur la lune ?",
+    "Quel est l’océan le plus grand du monde ?",
+    "Combien y a-t-il de continents ?"
+  ],
+  "Mathématiques": [
+    "Combien font 7 × 8 ?",
+    "Quelle est la racine carrée de 49 ?",
+    "Combien d'angles a un triangle ?",
+    "Quelle est la formule de l’aire d’un rectangle ?",
+    "Combien font 100 divisé par 4 ?"
+  ],
+  "Français": [
+    "Quel est le synonyme du mot 'rapide' ?",
+    "Complète : Il ___ allé au marché.",
+    "Quelle est la nature du mot 'beau' ?",
+    "Quel est le contraire de 'sombre' ?",
+    "Conjugue 'finir' au présent, 1re personne du pluriel."
+  ]
+}

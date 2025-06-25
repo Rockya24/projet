@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CEREBRO - Jeux interactifs</title>
   <!-- lien css -->
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="projet\css\style.css" />
+
   <!-- lien google font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <!-- lien boxicon -->
@@ -21,10 +22,9 @@
     </div>
     <ul class="navlist">
       <li class="LO"><a href="#">Accueil</a></li>
-      <li class="LO"><a href="#apropos-title">À propos</a></li>
+      <li class="LO"><a href="#apropos">À propos</a></li>
       <li class="LO"><a href="#themes">Thèmes</a></li>
-      <li class="LO"><a href="#contact-section">Contact</a></li>
-    </ul>
+     </ul>
   </header>
 
   <!-- section hero acceuil -->
@@ -34,9 +34,9 @@
         <h2 class="hero-title">Bienvenue dans <span>CEREBRO</span></h2>
        <h3 class="hero-subtitle">Ici, la connaissance prend vie à travers des expériences amusantes et interactives, pour que chaque enfant puisse apprendre, s’épanouir et rêver en grand.</h3>
 
-        <div class="cta-buttons">
-          <button class="cta-button">Commencer l'exploration</button>
-        </div>
+         <div class="cta-buttons">
+          <a href="projet/jeux.html" class="cta-button">Commencer l'exploration</a>
+         </div>
       </div>
     </div>
     <img src="img/inte.png" alt="enfant entrain de reflechir" class="hero-image" />
@@ -91,19 +91,12 @@
     </div>
   </div>
 
-  <!-- section contact -->
-  <div class="contact-section" id="contact-section">
-    <h2>Contactez-nous</h2>
-    <p>Pour toute question ou suggestion, n'hésitez pas à nous contacter via notre formulaire en ligne ou par email.</p>
-    <form action="#" method="post">
-      <input type="text" name="name" placeholder="Votre nom" required>
-      <input type="email" name="email" placeholder="Votre email" required>
-      <textarea name="message" placeholder="Votre message" required></textarea>
-      <button type="submit">Envoyer</button>
-    </form>
+  <footer>
     <div class="copyright">
-      <p>©2025 Tous droits réservés | CEREBRO</p>
+      
+      <p class="footer">©2025 Tous droits réservés | CEREBRO</p>
     </div>
+    </footer>
   </div>
 </body>
 </html>
